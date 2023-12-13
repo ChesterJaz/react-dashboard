@@ -6,11 +6,14 @@ import Home from './Home'
 
 function App() {
 
+
+ 
+
   return (
-    <div classname="grid-container">
-        <Header/>
-        <Sidebar/>
-        <Home/>
+    <div className='grid-container'>
+      <Header/>
+      <Sidebar/>
+      <Home />
     </div>
   )
 }
